@@ -1,9 +1,10 @@
 body {
     background-color: #F0F1F0   ;
+    background-image: url(http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1452713027/Central-Park-New-York-City-SECRETS0116.jpg?itok=HKA0Q1_Z);
     font-family: Arial;
     font-weight: bold;
     font-size: .8em;
-    color: #767A78;
+    color: #3C3F3C;
     margin: 2%;
 }
 
@@ -19,12 +20,13 @@ li {
     padding-right: 15px;
     border-style: solid;
     border-width: 1px;
-    border-color: darkgray;
+    border-color: #595C59;
 }
 
 .one {
     display: flex;
     background-color: white;
+    opacity: 0.6;
     list-style-type: none;
     flex-direction: row;
     padding: 0px;
@@ -36,6 +38,7 @@ li {
 .two {
     display: flex;
     background-color: white;
+    opacity: 0.6;
     list-style-type: none;
     flex-direction: row;
     padding: 0px;
@@ -47,6 +50,7 @@ li {
 .three {
     display: flex;
     background-color: white;
+    opacity: 0.6;
     list-style-type: none;
     flex-direction: row;
     padding: 0px;
@@ -62,7 +66,7 @@ li {
 input[type="text"]
 {
     font-size:1.2em;
-    color: lightgray;
+    color: #939593;
     padding-left: 0px;
     padding-top: 15px;
     border-style: none;
