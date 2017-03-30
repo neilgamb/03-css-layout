@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: #F0F1F0   ;
     font-family: Arial;
     font-weight: bold;
     font-size: .8em;
@@ -77,12 +77,39 @@ input[type="submit"] {
 }*/
 
 button {
-    background-color: #59AC2A;
-    color: white;
-    font-weight: bold;
-    font-size: 1.2em;
-    margin-top: 50px;
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #56b36f), color-stop(1, #5a963a));
+	background:-moz-linear-gradient(top, #56b36f 5%, #5a963a 100%);
+	background:-webkit-linear-gradient(top, #56b36f 5%, #5a963a 100%);
+	background:-o-linear-gradient(top, #56b36f 5%, #5a963a 100%);
+	background:-ms-linear-gradient(top, #56b36f 5%, #5a963a 100%);
+	background:linear-gradient(to bottom, #56b36f 5%, #5a963a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#56b36f', endColorstr='#5a963a',GradientType=0);
+	background-color:#56b36f;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:5px;
+	border:2px solid #6fb576;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 200px;
+	text-decoration:none;
+	text-shadow:1px 1px 8px #459938;
+    margin-top: 20px;
     margin-left: 30%;
-    width: 40%;
-    height: 35px;
+}
+
+select {
+
+    border: 0;
+    background-color: white;
+    font-size:1.2em;
+    color: lightgray;
+    padding-left: 0px;
+    padding-top: 15px;
+    border-style: none;
+    width: 100%;
 }
